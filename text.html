@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width",initial-scale>
+        <title>Document</title>
+        <style>
+           body,*{
+               font-family:shabnam;
+               background-color: blue;
+           }
+           .box1{
+            padding-top: 30px;
+                margin-top: 50px;
+                background-color: white;
+                border-radius: 10px;
+                height: 300px;
+                width: 300px;
+                margin-bottom: 20px;
+           }
+           .box2{
+            padding-top: 30px;
+                margin-top: 50px;
+                background-color: white;
+                border-radius: 10px;
+                height: 300px;
+                width: 300px;
+                margin-bottom: 20px;
+           }
+           .b{
+               background-color: white;
+           }
+        </style>
+    </head>
+    <body>
+        <div class="box1">
+            <form >
+                <label><b>نام و نام خانوادگی*</b></label><br>
+                    <input type="text" class="b" placeholder="مثال: علیرضا احمدی" required><br>
+                    <br>
+                    <label><b>شماره تماس*</b></label><br>
+                    <input type="text" class="b" laceholder="مثال: 09305005050" required><br>
+                    <br>
+                    <label><b>تاریخ تولد</b></label><br>
+                    <input type="date" class="b" >
+                    <br>
+                    <label><b>ایمیل*</b></label><br>
+                    <input type="text" class="b" placeholder="مثال: ahmadi@gmail.com" required><br>
+                    <br>
+                    <label><b>رمزعبور*</b></label><br>
+                    <input type="text" class="b" placeholder="یک رمز عبور وارد کنید..." required><br>
+                    <br>
+                    <input type="submit" value="ثبت نام" class="b">
+                    <input type="reset" value="پاک کن!" class="b">
+            </form>
+        </div>
+        <div class="box2">
+            <form>
+                <label><b>ایمیل*</b></label><br>
+                <input type="text" class="b" placeholder="ایمیل را اینجا وارد کنید..." required><br>
+                <br>
+                <label><b>رمزعبور*</b></label><br>
+                <input type="text" class="b" placeholder="رمز عبور را اینجا وارد کنید..." required><br>
+                <br>
+                <input type="submit" value="ورود" class="b">
+                <br>
+                <a href="https://www.google.com" class="b" style="padding: 55px;">فراموشی رمز عبور !</a>
+            </form>
+        </div>
+    </body>
+</html>
